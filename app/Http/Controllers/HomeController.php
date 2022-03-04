@@ -120,7 +120,8 @@ class HomeController extends Controller
         return view('about');
     }
     function catalogue(){
-        return  setting('site.pdf');
+
+        return  asset('storage/'.setting('site.pdf'));
     }
     function contact(){
         $contactUsPage = Page::where('slug', 'contact-us')->first();
