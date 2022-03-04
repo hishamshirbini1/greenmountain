@@ -89,6 +89,7 @@
 					<p>HYGIENE SOLUTION</p>
 					<span>Our products offer you the latest in innovation <br/> and they help you save both money and energy.</span>
 				</div> --}}
+
 				<img src="assets/images/home_product_img.jpg">
 				<div class="share_icon"></div>
 			</div>
