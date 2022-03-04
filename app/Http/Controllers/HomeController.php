@@ -121,7 +121,7 @@ class HomeController extends Controller
     }
     function catalogue(){
 
-        return  asset('storage/'.setting('site.pdf')->download_link);
+        return  asset('storage/'.setting('site.pdf'));
     }
     function contact(){
         $contactUsPage = Page::where('slug', 'contact-us')->first();
