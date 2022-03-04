@@ -52,7 +52,7 @@ $links= basename($_SERVER['PHP_SELF']);
 					<ul>
 						<li>
 							<i class="far fa-paper-plane"></i>
-							<p>971 2 555 9954<span>sales.hygiene@greenmountains.ae</span></p>
+							<p>+971 2552 9007<span>sales.hygiene@greenmountains.ae</span></p>
 						</li>
 						<li>
 							<i class="fas fa-map-marker-alt"></i>

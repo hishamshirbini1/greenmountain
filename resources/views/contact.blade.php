@@ -48,7 +48,7 @@
 					<i><img src="assets/images/phone-call.png"/></i>
 					<div class="contact_p">
 						<p>CALL US</p>
-						<span>Telephone: +971 2 555 9954</span>
+						<span>Telephone: ++971 2552 9007</span>
 						<span>Fax: +971 2 555 9974</span>
 					</div>
 				</div>
