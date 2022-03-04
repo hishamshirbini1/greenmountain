@@ -84,8 +84,7 @@
 					@endif
 				</div>
 			</div> --}}
-			{{-- <div class="home_product_right"> --}}
-			<div >
+			<div class="home_product_right">
 				{{-- <div class="product_img_title">
 					<p>HYGIENE SOLUTION</p>
 					<span>Our products offer you the latest in innovation <br/> and they help you save both money and energy.</span>
