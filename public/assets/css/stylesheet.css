@@ -2930,7 +2930,7 @@ header.darkHeader #cssmenu>ul>li {
 }
 
 .sub-categories-row:after {
-    content: "";
+    /* content: ""; */
     position: absolute;
     left: 0;
     top: 0;
