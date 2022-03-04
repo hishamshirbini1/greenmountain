@@ -123,7 +123,7 @@ class HomeController extends Controller
         // dd(setting('site.pdf'));
         $str = setting('site.pdf');
         $a = str_replace(['[',']','{','}'], '', $str);
-        dd(json_decode(a));
+        dd(json_decode($a));
         dd(asset('storage/'.setting('site.pdf')));
         // return view('pdf',compact('pdf'));
 
