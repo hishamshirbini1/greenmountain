@@ -120,7 +120,7 @@ class HomeController extends Controller
         return view('about');
     }
     function catalogue(){
-        dd(setting('site.pdf')[0]);
+        dd(setting('site.pdf'));
         return  asset('storage/'.setting('site.pdf'));
     }
     function contact(){
