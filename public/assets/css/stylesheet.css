@@ -1580,8 +1580,9 @@ a.prev:after {
 
 .services_provide {
     width: 100%;
-    background-image: url(../images/services_provide_bg.jpg);
-    height: 865px;
+    /* background-image: url(../images/services_provide_bg.jpg); */
+    /* height: 865px; */
+    margin: 15px 0;
     background-size: cover;
     background-position: center;
 }
