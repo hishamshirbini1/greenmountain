@@ -79,7 +79,7 @@ class SettingsTableSeeder extends Seeder
                 'value'        => '',
                 'details'      => '',
                 'type'         => 'image',
-                'order'        => 20,
+                'order'        => 3,
                 'group'        => 'Site',
             ])->save();
         }
