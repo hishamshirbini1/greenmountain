@@ -95,7 +95,7 @@
 		</div>
 	</div>
 </div>
-<div class="products-logo-section">
+{{-- <div class="products-logo-section">
 	<div class="container">
 	    @if ($homeCategories)
 	    	<div class="home_product_slider">
@@ -106,9 +106,9 @@
 							<a href="{{route('products.show', $product->id)}}" tabindex="-1"> <img src="{{asset('storage/'. $product->getBaseImage())}}">
 							<h2 class="product_title">{{$product->name}}</h2></a>
 						</div>
-						{{-- <div class="home_product_row">
+						<div class="home_product_row">
 							<a href="{{route('products.show', $product->id)}}"> <img src="assets/images/product_1.jpg"> </a>
-						</div> --}}
+						</div>
 
 					@endforeach
 				@endforeach
@@ -117,7 +117,7 @@
 		@endif
 
 	</div>
-</div>
+</div> --}}
 
 <!-- Home page product section end here -->
 
