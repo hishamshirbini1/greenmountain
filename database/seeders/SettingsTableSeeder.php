@@ -47,18 +47,6 @@ class SettingsTableSeeder extends Seeder
                 'group'        => 'Site',
             ])->save();
         }
-        $setting = $this->findSetting('site.logo1');
-        if (!$setting->exists) {
-            $setting->fill([
-                'display_name' => __('voyager::seeders.settings.site.logo1'),
-                'value'        => '',
-                'details'      => '',
-                'type'         => 'image',
-                'order'        => 3,
-                'group'        => 'Site',
-            ])->save();
-        }
-
 
         $setting = $this->findSetting('site.google_analytics_tracking_id');
         if (!$setting->exists) {
