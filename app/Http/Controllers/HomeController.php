@@ -120,7 +120,7 @@ class HomeController extends Controller
         return view('about');
     }
     function catalogue(){
-        $str = preg_replace('[]', '', setting('site.pdf'));
+        $str = str_replace('][', '', setting('site.pdf'));
         dd($str);
         return  asset('storage/'.setting('site.pdf'));
     }
