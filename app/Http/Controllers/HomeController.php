@@ -122,7 +122,8 @@ class HomeController extends Controller
     function catalogue(){
         // dd(setting('site.pdf'));
         $str = setting('site.pdf');
-        dd(json_decode(str_replace(['[',']','{','}'], '', $str)));
+        $a = str_replace(['[',']','{','}'], '', $str);
+        dd(json_decode(a));
         dd(asset('storage/'.setting('site.pdf')));
         // return view('pdf',compact('pdf'));
 
