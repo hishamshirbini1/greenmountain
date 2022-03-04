@@ -20,6 +20,7 @@ Route::get('/categories' , 'HomeController@categories')->name('categories.list')
 Route::resource('services', 'ServicesController');
 Route::resource('products' , 'ProductsController');
 Route::get('about', 'HomeController@about')->name('about');
+Route::get('catalogue', 'HomeController@catalogue')->name('catalogue');
 Route::get('contact', 'HomeController@contact')->name('contact');
 Route::post('contactus', 'HomeController@contactus')->name('contactus');
 Route::post('subscribers', 'HomeController@subscribers')->name('subscribers');
