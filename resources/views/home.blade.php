@@ -58,7 +58,7 @@
 <div class="home_product_section">
 	<div class="container">
 		<div class="home_product">
-			<div class="home_product_left">
+			{{-- <div class="home_product_left">
 				<div class="home_product_title">
 					<h3>GREEN MOUNTAINS HYGIENE <br/> & {{$homeCategories[0]->name ??''}}</h3>
 				</div>
@@ -83,8 +83,9 @@
 						@endforeach
 					@endif
 				</div>
-			</div>
-			<div class="home_product_right">
+			</div> --}}
+			{{-- <div class="home_product_right"> --}}
+			<div >
 				{{-- <div class="product_img_title">
 					<p>HYGIENE SOLUTION</p>
 					<span>Our products offer you the latest in innovation <br/> and they help you save both money and energy.</span>
