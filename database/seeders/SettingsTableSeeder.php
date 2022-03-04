@@ -89,7 +89,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.title'),
-                'value'        => 'Voyager',
+                'value'        => 'voyager::seeders.settings.admin.title',
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
