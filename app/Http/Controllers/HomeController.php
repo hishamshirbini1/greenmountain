@@ -120,8 +120,10 @@ class HomeController extends Controller
         return view('about');
     }
     function catalogue(){
-        $ar = serialize(setting('site.pdf'));
-        dd(asset('storage/'. $ar));
+        $myArray = array(setting('site.pdf'));
+        $serialized = serialize($myArray);
+        $myNewArray = unserialize($serialized);
+        dd(asset('storage/'. $myNewArray));
         return  asset('storage/'.setting('site.pdf'));
     }
     function contact(){
