@@ -843,6 +843,7 @@ INSERT INTO `settings` (`id`, `key`, `display_name`, `value`, `details`, `type`,
 (1, 'site.title', 'Site Title', 'greenmountain', '', 'text', 1, 'Site'),
 (2, 'site.description', 'Site Description', 'Site Description', '', 'text', 2, 'Site'),
 (3, 'site.logo', 'Site Logo', 'settings\\June2021\\k58ycmQL96ggU020wFl7.png', '', 'image', 3, 'Site'),
+(3, 'site.logo1', 'Site Logo1', 'settings\\June2021\\k58ycmQL96ggU020wFl7.png', '', 'image', 3, 'Site'),
 (4, 'site.google_analytics_tracking_id', 'Google Analytics Tracking ID', NULL, '', 'text', 4, 'Site'),
 (5, 'admin.bg_image', 'Admin Background Image', 'settings\\June2021\\bky6K1yiBBn2Tlx39qYv.jpg', '', 'image', 5, 'Admin'),
 (6, 'admin.title', 'Admin Title', 'greenmountain', '', 'text', 1, 'Admin'),
@@ -858,8 +859,8 @@ INSERT INTO `settings` (`id`, `key`, `display_name`, `value`, `details`, `type`,
 (16, 'site.twitter', 'Twitter Link', NULL, NULL, 'text', 11, 'Site'),
 (17, 'site.instagram', 'Instagram Link', NULL, NULL, 'text', 12, 'Site'),
 (18, 'site.youtube', 'Youtube Link', NULL, NULL, 'text', 13, 'Site'),
-(19, 'site.linkedin', 'LinkedIn Link', NULL, NULL, 'text', 14, 'Site'),
-(20, 'site.pdf', 'Site PDF', null, null, 'image', 20, 'Site');
+(19, 'site.linkedin', 'LinkedIn Link', NULL, NULL, 'text', 14, 'Site');
+-- (20, 'site.pdf', 'Site PDF', null, null, 'image', 3, 'Site');
 
 -- --------------------------------------------------------
 
