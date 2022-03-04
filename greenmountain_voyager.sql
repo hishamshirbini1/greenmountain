@@ -845,6 +845,7 @@ INSERT INTO `settings` (`id`, `key`, `display_name`, `value`, `details`, `type`,
 (17, 'site.instagram', 'Instagram Link', NULL, NULL, 'text', 12, 'Site'),
 (18, 'site.youtube', 'Youtube Link', NULL, NULL, 'text', 13, 'Site'),
 (19, 'site.linkedin', 'LinkedIn Link', NULL, NULL, 'text', 14, 'Site');
+(20, 'site.pdf', 'Site PDF', NULL, NULL, 'text', 15, 'Site');
 
 -- --------------------------------------------------------
 
