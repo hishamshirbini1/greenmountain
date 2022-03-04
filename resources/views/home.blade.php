@@ -195,6 +195,9 @@
 <div class="services_provide">
 	<div class="container">
         <div class="row">
+            <div class="connect-withus">
+				<p>Our Other Division</p>
+			</div>
 			@foreach ($posts as $post)
 
 				<div class="col-md-6 col-sm-12">
