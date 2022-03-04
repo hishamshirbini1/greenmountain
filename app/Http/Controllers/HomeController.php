@@ -120,17 +120,11 @@ class HomeController extends Controller
         return view('about');
     }
     function catalogue(){
-        // dd(setting('site.pdf'));
         $str = setting('site.pdf');
-        // dd(str_replace(['[',']','{','}'], '', $str));
         $array = explode(',', str_replace(['[',']','{','}'], '', $str));
         $ar2 = explode(':',$array[0]);
-        // dd($ar2[1]);
         $rt = asset('storage/'. str_replace(['"'],'',$ar2[1]));
-        // return view('pdf',compact('pdf'));
         return redirect($rt);
-
-
     }
     function contact(){
         $contactUsPage = Page::where('slug', 'contact-us')->first();
