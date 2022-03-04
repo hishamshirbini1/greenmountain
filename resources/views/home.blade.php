@@ -249,9 +249,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
 			<div class="contact_form">
 				<div class="contact_form_top">
 					<p>GREEN, DELIVERED</p>
