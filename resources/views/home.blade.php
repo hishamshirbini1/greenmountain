@@ -196,7 +196,7 @@
 	<div class="container">
         <div class="row">
             <div class="connect-withus">
-				<p>Our Other Division</p>
+				<span>Our Other Division</span>
 			</div>
 			@foreach ($posts as $post)
 
