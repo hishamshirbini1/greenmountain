@@ -70,7 +70,7 @@ $links= basename($_SERVER['PHP_SELF']);
 					<ul>
 						<li class ="{{ Request::is('/') ? 'active' : '' }}" > <a href="{{route('home')}}">Home</a> </li>
 						<li class ="{{ Request::is('about') ? 'active' : '' }}" > <a href="{{route('about')}}">About us</a> </li>
-						<li class ="{{ Request::is('catalogue') ? 'active' : '' }}" > <a href="{{route('catalogue')}}">Catalogue</a> </li>
+						<li class ="{{ Request::is('catalogue') ? 'active' : '' }}" > <a target="_blank" href="{{route('catalogue')}}">Catalogue</a> </li>
 						{{-- <li class ="{{ Request::is('services*') ? 'active' : '' }}" > <a href="{{route('services.index')}}">services</a>
 							<ul>
 								@foreach ($services as $service)
