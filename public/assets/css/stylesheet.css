@@ -923,6 +923,14 @@ footer#footer {
     margin: 0 auto 30px;
     width: 270px;
 }
+.other-division {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+    margin: 0 auto 30px;
+    width: max-content;
+}
 
 .connect-withus p {
     font-size: 15px;
@@ -931,6 +939,11 @@ footer#footer {
 }
 
 .connect-withus span {
+    color: #303030;
+    font-size: 37px;
+    font-weight: 600;
+}
+.other-division span {
     color: #303030;
     font-size: 37px;
     font-weight: 600;
@@ -967,6 +980,15 @@ footer#footer {
     border: 0px solid #fff;
     transition: all 1s;
 }
+.other-division:after,
+.other-division:before {
+    content: " ";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+}
 
 .connect-withus:after {
     top: -20px;
@@ -974,8 +996,20 @@ footer#footer {
     border-top: 2px solid #6dbc45;
     border-left: 2px solid #6dbc45;
 }
+.other-division:after {
+    top: -20px;
+    left: -30px;
+    border-top: 2px solid #6dbc45;
+    border-left: 2px solid #6dbc45;
+}
 
 .connect-withus:before {
+    bottom: -10px;
+    right: -40px;
+    border-bottom: 2px solid #6dbc45;
+    border-right: 2px solid #6dbc45;
+}
+.other-division:before {
     bottom: -10px;
     right: -40px;
     border-bottom: 2px solid #6dbc45;
@@ -3476,6 +3510,9 @@ header.darkHeader #cssmenu>ul>li {
     .connect-withus span {
         font-size: 25px;
     }
+    .other-division span {
+        font-size: 25px;
+    }
     .connect-withus p {
         font-size: 12px;
     }
@@ -3483,6 +3520,10 @@ header.darkHeader #cssmenu>ul>li {
         padding: 30px 0;
     }
     .connect-withus {
+        width: 190px;
+        margin-bottom: 30px;
+    }
+    .other-division {
         width: 190px;
         margin-bottom: 30px;
     }
@@ -3834,6 +3875,18 @@ header.darkHeader #cssmenu>ul>li {
     }
     .connect-withus:after,
     .connect-withus:before {
+        width: 30px;
+        height: 30px;
+    }
+    .other-division:before {
+        right: 0;
+    }
+    .other-division:after {
+        left: 0;
+        top: -6px;
+    }
+    .other-division:after,
+    .other-division:before {
         width: 30px;
         height: 30px;
     }

@@ -194,7 +194,7 @@
 @endphp
 <div class="services_provide">
 
-    <div class="connect-withus">
+    <div class="other-division">
         <span>Our Other Division</span>
     </div>
 	<div class="container">
