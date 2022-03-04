@@ -193,11 +193,12 @@
 	$posts = TCG\Voyager\Models\Post::where('featured', 1)->limit(2)->get()
 @endphp
 <div class="services_provide">
+
+    <div class="connect-withus">
+        <span>Our Other Division</span>
+    </div>
 	<div class="container">
         <div class="row">
-            <div class="connect-withus">
-				<span>Our Other Division</span>
-			</div>
 			@foreach ($posts as $post)
 
 				<div class="col-md-6 col-sm-12">
