@@ -124,7 +124,8 @@ class HomeController extends Controller
         $str = setting('site.pdf');
         // dd(str_replace(['[',']','{','}'], '', $str));
         $array = explode(',', str_replace(['[',']','{','}'], '', $str));
-        dd(explode(':',$array[0]));
+        $ar2 = explode(':',$array[0]);
+        dd($ar2[1]);
         dd(asset('storage/'.setting('site.pdf')));
         // return view('pdf',compact('pdf'));
 
