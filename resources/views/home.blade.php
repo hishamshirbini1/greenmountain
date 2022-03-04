@@ -56,6 +56,9 @@
 <!-- Home page product section start here -->
 
 <div class="home_product_section">
+    <div class="other-division">
+        <span style="color:white;">Our Other Division</span>
+    </div>
 	<div class="container">
 		<div class="home_product">
 			{{-- <div class="home_product_left">
