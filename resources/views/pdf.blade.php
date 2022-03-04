@@ -20,7 +20,7 @@
 		<div class="about_content">
 
 			<div class="about_content_img">
-                <input type="image" value="{{$pdf}}">
+                <input type="file" value="{{$pdf}}">
 			</div>
 		</div>
 
