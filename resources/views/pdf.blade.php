@@ -20,7 +20,7 @@
 		<div class="about_content">
 
 			<div class="about_content_img">
-				<img src="{{asset('storage/'. $pdf)}}"/>
+                <input type="image" value="{{$pdf}}">
 			</div>
 		</div>
 
