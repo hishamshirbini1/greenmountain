@@ -81,7 +81,6 @@
 								</div>
 							@endforelse
 						@endforeach
-
 					@endif
 				</div>
 			</div>
