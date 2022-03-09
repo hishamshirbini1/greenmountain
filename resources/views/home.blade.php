@@ -72,9 +72,9 @@
 		</div>
 	</div>
 </div>
-{{-- <div class="products-logo-section">
+<div class="products-logo-section">
 	<div class="container">
-	    @if ($homeCategories)
+	    {{-- @if ($homeCategories)
 	    	<div class="home_product_slider">
 				@foreach ($homeCategories as $category)
 
@@ -91,10 +91,16 @@
 				@endforeach
 
 			</div>
-		@endif
+		@endif --}}
+
+        <video width="400" controls>
+        <source src="assets/videos/video-2022.mp4" type="video/mp4">
+        {{-- <source src="assets/vedios/biocontainers.ogg" type="video/ogg"> --}}
+        {{-- Your browser does not support HTML video. --}}
+        </video>
 
 	</div>
-</div> --}}
+</div>
 
 <!-- Home page product section end here -->
 
