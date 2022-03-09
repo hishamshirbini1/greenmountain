@@ -63,11 +63,11 @@
 		<div class="row">
 			<div class="col-md-6">
 
-				<img src="assets/images/kraftrounded.jpeg">
+				<img class="w-100" src="assets/images/kraftrounded.jpeg">
 			</div>
 			<div class="col-md-6">
-				<img src="assets/images/biocontainers.jpeg">
-				<div class="share_icon"></div>
+				<img class="w-100" src="assets/images/biocontainers.jpeg">
+				{{-- <div class="share_icon"></div> --}}
 			</div>
 		</div>
 	</div>

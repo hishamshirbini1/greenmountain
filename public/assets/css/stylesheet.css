@@ -1777,6 +1777,9 @@ a.prev:after {
 .services_provide_content ul li:hover:before {
     opacity: 1;
 }
+.w-100{
+    width: 100%;
+}
 
 .why_choose {
     display: flex;
