@@ -60,41 +60,13 @@
         <span style="color:white;">Our Other Division</span>
     </div>
 	<div class="container">
-		<div class="home_product">
-			<div class="home_product_left">
-				{{-- <div class="home_product_title">
-					<h3>GREEN MOUNTAINS HYGIENE <br/> & {{$homeCategories[0]->name ??''}}</h3>
-				</div>
-				<div class="see_all">
-					<p>We ensure that you help a supremely hygienic and healthy environment, by providing you with all the beautiful variety of the latest and top quality hygienic workplace equipment along with a practical diversity of bathroom supplies.</p>
-					<a href="{{route('products.index')}}">See All Products</a>
-				</div> --}}
+		<div class="row">
+			<div class="col-md-6">
 
-				{{-- <div class="home_product_slider">
-					@if ($homeCategories)
-						@foreach ($homeCategories as $category)
-
-							@forelse ($category->related_products() as $product)
-								<div class="home_product_row">
-									<a href="{{route('products.show', $product->id)}}"> <img src="{{asset('storage/' . $product->getBaseImage())}}"> </a>
-								</div>
-							@empty
-								<div class="home_product_row">
-									<P>No Product Found For Now "Stay Tuned !! "</P>
-								</div>
-							@endforelse
-						@endforeach
-					@endif
-				</div> --}}
-
-				<img src="assets/images/home_product_img.jpg">
+				<img src="assets/images/kraftrounded.jpeg">
 			</div>
-			<div class="home_product_right">
-				{{-- <div class="product_img_title">
-					<p>HYGIENE SOLUTION</p>
-					<span>Our products offer you the latest in innovation <br/> and they help you save both money and energy.</span>
-				</div> --}}
-				<img src="assets/images/home_product_img.jpg">
+			<div class="col-md-6">
+				<img src="assets/images/biocontainers.jpeg">
 				<div class="share_icon"></div>
 			</div>
 		</div>
