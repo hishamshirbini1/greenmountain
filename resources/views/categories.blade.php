@@ -25,7 +25,7 @@
 
 <div class="wrapper_page">
 	<div class="container">
-		<div class="main-category row">
+		<div class="row">
 			@foreach ($categories as $category)
 				<div class="product-category-row col-md-6">
                     <div class="product-category-img">
