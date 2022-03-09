@@ -2565,7 +2565,7 @@ header.darkHeader #cssmenu>ul>li {
 .video-box {
     width: 100%;
     max-height: 500px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .home_product_row img {
     margin: auto;
