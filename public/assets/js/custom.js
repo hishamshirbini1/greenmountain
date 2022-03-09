@@ -1,13 +1,15 @@
 // JavaScript Document
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 50) {
+        $('.body').css({ 'padding-top': '80px'});
         $("#header").addClass("darkHeader");
     } else {
         $("#header").removeClass("darkHeader");
+        $('.body').css({ 'padding-top': '0' });
     }
-  
+
 });
 
 
@@ -80,7 +82,7 @@ prevArrow: '<button class="slide-arrow prev-arrow">PREV</button>',
 
 
 (function($) {
-$.fn.menumaker = function(options) {  
+$.fn.menumaker = function(options) {
  var cssmenu = $(this), settings = $.extend({
    format: "dropdown",
    sticky: false
@@ -89,7 +91,7 @@ $.fn.menumaker = function(options) {
    $(this).find(".button").on('click', function(){
      $(this).toggleClass('menu-opened');
      var mainmenu = $(this).next('ul');
-     if (mainmenu.hasClass('open')) { 
+     if (mainmenu.hasClass('open')) {
        mainmenu.slideToggle().removeClass('open');
      }
      else {
