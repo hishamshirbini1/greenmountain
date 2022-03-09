@@ -2347,7 +2347,7 @@ a.prev:after {
 }
 
 .home_product_right {
-    width: 100%;
+    width: 50%;
     position: relative;
 }
 
@@ -2359,7 +2359,7 @@ a.prev:after {
 }
 
 .home_product_left {
-    width: calc(100% - 592px);
+    width: 50%;
     padding-right: 40px;
 }
 

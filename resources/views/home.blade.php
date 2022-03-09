@@ -61,16 +61,16 @@
     </div>
 	<div class="container">
 		<div class="home_product">
-			{{-- <div class="home_product_left">
-				<div class="home_product_title">
+			<div class="home_product_left">
+				{{-- <div class="home_product_title">
 					<h3>GREEN MOUNTAINS HYGIENE <br/> & {{$homeCategories[0]->name ??''}}</h3>
 				</div>
 				<div class="see_all">
 					<p>We ensure that you help a supremely hygienic and healthy environment, by providing you with all the beautiful variety of the latest and top quality hygienic workplace equipment along with a practical diversity of bathroom supplies.</p>
 					<a href="{{route('products.index')}}">See All Products</a>
-				</div>
+				</div> --}}
 
-				<div class="home_product_slider">
+				{{-- <div class="home_product_slider">
 					@if ($homeCategories)
 						@foreach ($homeCategories as $category)
 
@@ -85,8 +85,10 @@
 							@endforelse
 						@endforeach
 					@endif
-				</div>
-			</div> --}}
+				</div> --}}
+
+				<img src="assets/images/home_product_img.jpg">
+			</div>
 			<div class="home_product_right">
 				{{-- <div class="product_img_title">
 					<p>HYGIENE SOLUTION</p>
