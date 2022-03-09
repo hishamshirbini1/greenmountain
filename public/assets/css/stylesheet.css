@@ -2560,6 +2560,7 @@ header.darkHeader #cssmenu>ul>li {
 .products-logo-section {
     width: 100%;
     background: #6dbc45;
+    margin: 0 0 30px 0;
     padding: 30px 0;
 }
 .video-box {
