@@ -25,18 +25,17 @@
 
 <div class="wrapper_page">
 	<div class="container">
-		<div class="main-category">
+		<div class="main-category row">
 			@foreach ($categories as $category)
-				<div class="product-category-row">
+				<div class="product-category-row col-md-6">
 					<a href="{{route('productOrCategory', $category->slug)}}">
 						<div class="product-category-img">
 							<img src="{{asset('storage/'. $category->image)}}"/>
 						</div>
-						<div class="product-category-title">
-							<h2>{{$category->name}}</h2>
-							{{-- <span>Read More</span> --}}
-						</div>
 					</a>
+                    <div class="product-category-title">
+                        <h2>{{$category->name}}</h2>
+                    </div>
 				</div>
 			@endforeach
 		</div>

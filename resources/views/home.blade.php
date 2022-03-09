@@ -57,7 +57,7 @@
 
 <div class="home_product_section">
     <div class="other-division">
-        <span style="color:white;">Our Other Division</span>
+        <span style="color:white;">Highlights</span>
     </div>
 	<div class="container">
 		<div class="row">
