@@ -57,7 +57,7 @@
 
 <div class="home_product_section">
     <div class="other-division">
-        <span style="color:white;">Highlights</span>
+        <span >Highlights</span>
     </div>
 	<div class="container">
 		<div class="row">
@@ -105,7 +105,7 @@
 
 <!-- Why Choose Us start here -->
 
-<div class="why_choose_section">
+{{-- <div class="why_choose_section">
 	<div class="container">
 		<div class="why_choose">
 			<div class="why_choose_left">
@@ -127,7 +127,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> --}}
 
 <!-- Why Choose Us end here -->
 
