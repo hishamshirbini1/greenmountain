@@ -63,10 +63,10 @@
 		<div class="row">
 			<div class="col-md-6">
 
-				<img class="w-100" src="assets/images/kraftrounded.jpeg">
+				<img class="w-100 h-100" src="assets/images/kraftrounded.jpeg">
 			</div>
 			<div class="col-md-6">
-				<img class="w-100" src="assets/images/biocontainers.jpeg">
+				<img class="w-100 h-100" src="assets/images/biocontainers.jpeg">
 				{{-- <div class="share_icon"></div> --}}
 			</div>
 		</div>
