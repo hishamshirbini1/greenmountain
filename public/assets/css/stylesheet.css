@@ -2346,6 +2346,10 @@ a.prev:after {
     align-items: end;
 }
 
+.highlights-img{
+    height: 400px;
+    object-fit: fill;
+}
 .home_product_title {
     color: #ffffff;
     font-size: 37px;
