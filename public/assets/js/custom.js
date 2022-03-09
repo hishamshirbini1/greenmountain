@@ -3,11 +3,11 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 50) {
-        $('.body').css({ 'padding-top': '80px'});
+        $('body').css({ 'padding-top': '80px'});
         $("#header").addClass("darkHeader");
     } else {
         $("#header").removeClass("darkHeader");
-        $('.body').css({ 'padding-top': '0' });
+        $('body').css({ 'padding-top': '0' });
     }
 
 });
