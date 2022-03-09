@@ -2724,7 +2724,7 @@ header.darkHeader #cssmenu>ul>li {
 .product-category-row {
 
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 400px;
     display: inline-flex;
     margin: 20px 0;
@@ -2732,7 +2732,8 @@ header.darkHeader #cssmenu>ul>li {
 
 .product-category-row img {
     width: 100%;
-    display: block;
+    height: 100%;
+    /* display: block; */
     object-fit: cover;
 }
 
