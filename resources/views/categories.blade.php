@@ -32,10 +32,10 @@
 						<div class="product-category-img">
 							<img src="{{asset('storage/'. $category->image)}}"/>
 						</div>
+						<div class="product-category-title">
+							<h2>{{$category->name}}</h2>
+						</div>
 					</a>
-                    <div class="product-category-title">
-                        <h2>{{$category->name}}</h2>
-                    </div>
 				</div>
 			@endforeach
 		</div>
