@@ -147,7 +147,7 @@ class HomeController extends Controller
             'email'     => $request->email,
             'msj'   => $request->message
         ], function ($mail) use ($request) {
-            dd($request->email);
+            dd(setting('site.email'));
             // $mail->from(env('MAIL_FROM_ADDRESS'), $request->email);
             $mail->from( $request->email);
             $contactEmail = setting('site.email');
