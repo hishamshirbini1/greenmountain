@@ -163,7 +163,7 @@ class HomeController extends Controller
         $subscriber = new Subscribers;
         $subscriber->email = $request->email;
         $subscriber->save();
-        return back();
+        return redirect()->back();
     }
 
     public function productOrCategory(Request $request)
