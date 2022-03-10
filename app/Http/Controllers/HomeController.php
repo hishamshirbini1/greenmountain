@@ -10,7 +10,6 @@ use App\Models\Services;
 use App\Models\Subscribers;
 use App\Models\WhyChoseUs;
 use Illuminate\Http\Request;
-use App\Mail\sendContact;
 use Illuminate\Support\Facades\Mail;
 use TCG\Voyager\Models\Page;
 
@@ -148,17 +147,12 @@ class HomeController extends Controller
             'email'     => $request->email,
             'msj'   => $request->message
         ], function ($mail) use ($request) {
-            // dd($request,$request->email,setting('site.email'));
             // $mail->from(env('MAIL_FROM_ADDRESS'), $request->email);
             $mail->from( $request->email);
-            // $contactEmail = setting('site.email');
-            $contactEmail = 'hishamshirbini@gmail.com';
+            $contactEmail = setting('site.email');
             $mail->to($contactEmail);
             $mail->subject($request->subject);
         });
-
-        // Mail::to('hishamshirbini@gmail.com')
-        //     ->send(new sendContact($ms));
 
         $tyMessage = 'Thank you for you inquiry we will contact you shortly !';
         return redirect()->back()->with('success', $tyMessage);
