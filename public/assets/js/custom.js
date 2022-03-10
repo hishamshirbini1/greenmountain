@@ -3,7 +3,7 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 50) {
-        $('body').css({ 'padding-top': '80px'});
+        $('body').css({ 'padding-top': '145px'});
         $("#header").addClass("darkHeader");
     } else {
         $("#header").removeClass("darkHeader");
