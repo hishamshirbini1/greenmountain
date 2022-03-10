@@ -105,6 +105,7 @@ $links= basename($_SERVER['PHP_SELF']);
 			</div>
 			<div class="newsletter_form">
 				<form action="{{route('subscribers')}}" method="POST">
+                    @csrf
 					<input type="text" name="email" placeholder="Your Email Address">
 					<button>Subscribe</button>
 				</form>
