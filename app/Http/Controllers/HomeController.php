@@ -143,20 +143,20 @@ class HomeController extends Controller
         $ms->subject = $request->subject;
         $ms->message = $request->message;
         $ms->save();
-        // Mail::send('emails.contactmail', [
-        //     'name'      => $request->name,
-        //     'email'     => $request->email,
-        //     'msj'   => $request->message
-        // ], function ($mail) use ($request) {
-        //     // dd($request->type);
-        //     $mail->from(env('MAIL_FROM_ADDRESS'), $request->email);
-        //     $contactEmail = setting('site.email');
-        //     $mail->to($contactEmail);
-        //     $mail->subject($request->subject);
-        // });
+        Mail::send('emails.contactmail', [
+            'name'      => $request->name,
+            'email'     => $request->email,
+            'msj'   => $request->message
+        ], function ($mail) use ($request) {
+            dd($request,env('MAIL_FROM_ADDRESS'),setting('site.email'));
+            $mail->from(env('MAIL_FROM_ADDRESS'), $request->email);
+            $contactEmail = setting('site.email');
+            $mail->to($contactEmail);
+            $mail->subject($request->subject);
+        });
 
-        Mail::to('hishamshirbini@gmail.com')
-            ->send(new sendContact($ms));
+        // Mail::to('hishamshirbini@gmail.com')
+        //     ->send(new sendContact($ms));
 
         $tyMessage = 'Thank you for you inquiry we will contact you shortly !';
         return redirect()->back()->with('success', $tyMessage);
