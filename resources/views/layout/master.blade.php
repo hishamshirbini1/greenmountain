@@ -154,7 +154,7 @@ $links= basename($_SERVER['PHP_SELF']);
 		</div>
 
 		<div class="sub_footer">
-			<p>© 2021 . Green Mountains Hygiene . All rights reserved . By <a href="#">Dow Group</a></p>
+			<p>© 2021 . Green Mountains Hygiene . All rights reserved . By <a href="https://www.dowgroup.com/">Dow Group</a></p>
 		</div>
 
 	</div>
