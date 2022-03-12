@@ -92,7 +92,7 @@
 
 			</div>
 		@endif --}}
-        <video class="video-box" controls>
+        <video class="video-box" controls autoplay>
             <source src="assets/videos/video-2022.mp4" type="video/mp4">
         </video>
 
